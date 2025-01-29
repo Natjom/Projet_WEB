@@ -61,25 +61,25 @@ ul li {
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
-    position: relative; /* Ajouté pour permettre de gérer la position du lien */
+    position: relative; 
 }
 
 ul li a {
-    display: block;  /* Permet au lien de remplir toute la zone du <li> */
+    display: block;  
     color: white;
     text-decoration: none;
-    height: 100%; /* Le lien prend toute la hauteur du <li> */
-    width: 100%;  /* Le lien prend toute la largeur du <li> */
+    height: 100%; 
+    width: 100%; 
     text-align: center;
-    line-height: normal; /* Assure un bon alignement vertical */
+    line-height: normal; 
 }
 
 ul li a:hover {
-    text-decoration: underline; /* Lien souligné au survol */
+    text-decoration: underline; 
 }
 
 ul li:hover {
-    background: #357ABD;  /* Changement de couleur au survol de l'élément li */
+    background: #357ABD;  
 }
 
 table {
@@ -112,17 +112,17 @@ footer {
 }
 
 .engagement-list {
-    list-style-type: disc; /* Définit des puces classiques */
-    padding-left: 20px; /* Ajoute de l'espace à gauche pour les puces */
+    list-style-type: disc; 
+    padding-left: 20px; 
 }
 
 .engagement-list li {
     font-size: 16px;
     margin-bottom: 10px;
-    color: #333; /* Couleur du texte des items */
-    font-weight: normal; /* Optionnel : pour ne pas avoir du texte en gras */
-    background: none; /* Retirer tout fond pour éviter les carrés bleus */
-    text-align: left; /* Optionnel : texte aligné à gauche */
+    color: #333; 
+    font-weight: normal; 
+    background: none; 
+    text-align: left; 
 }
 
 .engagement-list li:hover {
