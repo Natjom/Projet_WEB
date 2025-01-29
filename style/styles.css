@@ -10,6 +10,7 @@ header {
     background-color: #4A90E2;
     color: white;
     padding: 20px;
+    margin: 0;
     text-align: center;
 }
 
@@ -22,7 +23,7 @@ nav a {
     color: #F5A623;
     text-decoration: none;
     font-weight: bold;
-    padding: 0 10px;
+    padding: 10px;
 }
 
 nav a:hover {
@@ -31,7 +32,7 @@ nav a:hover {
 
 main {
     width: 80%;
-    margin: 20px auto;
+    margin: 100px auto;
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -97,5 +98,24 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+
+.engagement-list {
+    list-style-type: disc; /* Définit des puces classiques */
+    padding-left: 20px; /* Ajoute de l'espace à gauche pour les puces */
+}
+
+.engagement-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333; /* Couleur du texte des items */
+    font-weight: normal; /* Optionnel : pour ne pas avoir du texte en gras */
+    background: none; /* Retirer tout fond pour éviter les carrés bleus */
+    text-align: left; /* Optionnel : texte aligné à gauche */
+}
+
+.engagement-list li:hover {
+    background: white;
 }
