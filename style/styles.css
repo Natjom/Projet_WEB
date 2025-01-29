@@ -61,15 +61,25 @@ ul li {
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
+    position: relative; /* Ajouté pour permettre de gérer la position du lien */
 }
 
 ul li a {
+    display: block;  /* Permet au lien de remplir toute la zone du <li> */
     color: white;
     text-decoration: none;
+    height: 100%; /* Le lien prend toute la hauteur du <li> */
+    width: 100%;  /* Le lien prend toute la largeur du <li> */
+    text-align: center;
+    line-height: normal; /* Assure un bon alignement vertical */
+}
+
+ul li a:hover {
+    text-decoration: underline; /* Lien souligné au survol */
 }
 
 ul li:hover {
-    background: #357ABD;
+    background: #357ABD;  /* Changement de couleur au survol de l'élément li */
 }
 
 table {
@@ -100,7 +110,6 @@ footer {
     padding: 20px;
     margin-top: 100px;
 }
-
 
 .engagement-list {
     list-style-type: disc; /* Définit des puces classiques */
