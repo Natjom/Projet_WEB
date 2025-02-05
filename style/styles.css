@@ -57,7 +57,48 @@ nav {
 
 
 
+ .breadcrumb {
+    display: flex; /* Permet d'aligner correctement le contenu */
+    justify-content: flex-start; /* Force l'alignement à gauche */
+    align-items: center; /* Centre verticalement si besoin */
+    background-color: #4A90E2;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 15px; /* Décale légèrement à gauche */
+    padding: 5px 10px;
+    color: white;
+}
 
+
+
+.breadcrumb a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+
+
+.nav-right .icon-button {
+    display: inline-block;
+    overflow: hidden; /* Pour éviter que l'image dépasse lors du zoom */
+}
+
+.nav-right .icon-button:hover {
+    transform: scale(1.2); /* Effet de zoom sur le bouton */
+    transition: transform 0.3s ease; /* Transition sur l'effet de zoom */
+}
+
+.nav-right img.icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
 
 
 

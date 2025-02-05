@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Lebonplan",
+  "short_name": "Lebonplan",
   "icons": [
     {
       "src": "/images/web-app-manifest-192x192.png",
