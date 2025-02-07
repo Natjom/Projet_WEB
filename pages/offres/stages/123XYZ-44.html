@@ -1,0 +1,126 @@
+<!doctype html> 
+<html lang="fr"> 
+   <head> 
+		<meta charset="utf-8">
+		<meta name="author" content="Nathan AURICCHIO">
+		<meta name="description" content="A propos de nous">
+		<meta name="robots" content="index, follow">
+		<meta http-equiv="Content-Language" content="fr">
+		<link rel="stylesheet" href="/lebonplan/style/styles.css">
+		<meta name="copyright" content="© 2025 Nathan AURICCHIO">
+		<link rel="icon" type="image/png" href="/lebonplan/ico/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/lebonplan/ico/favicon.svg" />
+		<link rel="shortcut icon" href="/lebonplan/ico/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/lebonplan/ico/apple-touch-icon.png" />
+		<link rel="manifest" href="/lebonplan/ico/site.webmanifest" />
+        <script defer src="/lebonplan/scripts/form_validation.js"></script>
+		<title>Offre - Stage</title> 
+   </head> 
+   <body>
+     <header>
+		<div><center>
+            <img src="/lebonplan/images/logo-lbp-header.png" alt="Lebonplan - Le meilleur site d'annonces en ligne">
+        </center></div>
+		<br>
+		<hr>
+		<nav>
+            <div class="nav-left">
+                <a href="/lebonplan/index.html">Accueil</a> | 
+                <a href="/lebonplan/pages/entreprises.html">Entreprises</a> | 
+                <a href="/lebonplan/pages/offres.html">Offres</a> | 
+                <a href="/lebonplan/pages/whishlist.html">Whishlist</a> | 
+                <a href="/lebonplan/pages/contact.html">Contact</a>
+            </div>
+            <div class="nav-right">
+				<a href="/lebonplan/pages/inscription.html">Inscription</a> | 
+				<a href="/lebonplan/pages/connexion.html">Connexion</a> | 
+				<a href="#" class="icon-button">
+					<img src="/lebonplan/images/fr-flag.png" alt="Langue" class="icon">
+				</a> | 
+				<a href="#" class="icon-button">
+					<img src="/lebonplan/images/param.png" alt="Paramètre" class="icon">
+				</a>
+			</div>
+		</nav>
+        <hr>
+
+
+		<nav class="breadcrumb">
+            <a href="/lebonplan/index.html">Accueil</a> &gt; 
+            <a href="/lebonplan/pages/offres.html">Offres</a> &gt; 
+            <a href="/lebonplan/pages/stages.html">Stages</a> &gt;&nbsp;&nbsp;&nbsp;
+            <span>Postuler</span>
+        </nav>
+	 </header>
+	 
+	 <main>
+
+		
+
+
+
+
+        <h1>Postuler à une offre de stage</h1>
+        <h2>Vous pouvez ici répondre directement à l'offre de stage qui a été déposée par l'entreprise. Soyez le plus précis possible dans vos réponses !</h2>
+        
+        <section class="offer-details">
+            <h3>Stage - Administrateur Système et Réseau H/F</h3>
+            <p><strong>IBM</strong> | Pornichet - 44 | Publiée le 23/01/2025 | Ref. 123XYZ-44</p>
+            <p><strong>Résumé de l'offre :</strong></p>
+            <div class="badges">
+                <span>3 mois</span>
+                <span>Bac+2, Bac+3</span>
+                <span>Système, Réseaux, Cloud</span>
+                <span>Exp. -1 an</span>
+            </div>
+        </section>
+        
+        <section class="apply-form">
+            <h3>Envoyez votre candidature dès maintenant !</h3>
+            <form id="applyForm">
+                <label for="civilite">Civilité :</label>
+                <select id="civilite" name="civilite">
+                    <option value="M">Monsieur</option>
+                    <option value="Mme">Madame</option>
+                </select><br/><br/>
+                
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required> <br/><br/>
+                
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required> <br/><br/>
+                
+                <label for="email">Courriel :</label>
+                <input type="email" id="email" name="email" required> <br/><br/>
+                
+                <legend>À propos de vous :</legend>
+                <input type="checkbox" id="permis" name="permis">
+                <label for="permis">Permis B</label><br/>
+                
+                <input type="checkbox" id="vehicule" name="vehicule">
+                <label for="vehicule">Véhiculé</label><br/>
+                
+				<input type="checkbox" id="certifications" name="certifications">
+                <label for="certifications">Certifications (Microsoft, Cisco...)</label><br/><br/>
+                
+                <label for="message">Votre message au recruteur :</label><br/>
+                <textarea id="message" name="message" rows="5" required></textarea><br/><br/>
+                
+                <label for="cv">Joindre votre CV :</label><br/>
+                <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required><br/><br/>
+                
+                <button type="submit">Postuler</button><br/>
+                <button type="reset">Réinitialiser</button><br/><br/>
+            </form>
+        </section>
+     </main>
+	 
+	 
+	 <footer>
+		<br>
+		<hr>
+		<center><em>&copy;2025 - Tous droits réservés - Nathan AURICCHIO</em></center>
+	 </footer>
+	 
+   </body> 
+</html>
