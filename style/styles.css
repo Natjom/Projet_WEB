@@ -202,3 +202,22 @@ footer {
 .engagement-list li:hover {
     background: white;
 }
+
+.badges {
+    display: flex; /* Alignement horizontal */
+    flex-wrap: wrap; /* Permet le retour à la ligne si nécessaire */
+    gap: 8px; /* Espacement entre les badges */
+    margin: 10px 0; /* Marge au-dessus et en dessous */
+    padding: 0;
+}
+
+.badges span {
+    background-color: #007bff; /* Couleur de fond (bleu) */
+    color: white; /* Texte en blanc */
+    padding: 5px 10px; /* Espacement interne */
+    border-radius: 12px; /* Bords arrondis */
+    font-size: 14px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    white-space: nowrap; /* Empêche le retour à la ligne à l'intérieur du badge */
+    border: 1px solid #0056b3; /* Bordure légèrement plus foncée */
+}

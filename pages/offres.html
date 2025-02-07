@@ -13,11 +13,14 @@
 		<link rel="shortcut icon" href="/lebonplan/ico/favicon.ico" />
 		<link rel="apple-touch-icon" sizes="180x180" href="/lebonplan/ico/apple-touch-icon.png" />
 		<link rel="manifest" href="/lebonplan/ico/site.webmanifest" />
+        <script defer src="/lebonplan/scripts/form_validation.js"></script>
 		<title>A propos - Lebonplan</title> 
    </head> 
    <body>
      <header>
-		<div><center><img src="/lebonplan/images/logo-lbp-header.png" alt="Lebonplan - Le meilleur site d'annonces en ligne"></center></div>
+		<div><center>
+            <img src="/lebonplan/images/logo-lbp-header.png" alt="Lebonplan - Le meilleur site d'annonces en ligne">
+        </center></div>
 		<br>
 		<hr>
 		<nav>
@@ -74,7 +77,7 @@
         
         <section class="apply-form">
             <h3>Envoyez votre candidature dès maintenant !</h3>
-            <form action="/lebonplan/pages/postuler_action.php" method="post" enctype="multipart/form-data">
+            <form id="applyForm">
                 <label for="civilite">Civilité :</label>
                 <select id="civilite" name="civilite">
                     <option value="M">Monsieur</option>
